@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: grafico
+  host: grafico
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Text to Speech-a0
